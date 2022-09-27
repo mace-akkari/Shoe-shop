@@ -1,0 +1,30 @@
+.header {
+  top: 0;
+  min-height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden;
+  border: 2px solid yellow;
+}
+
+.header-logo {
+  font-family: "Knewave", cursive;
+  -webkit-text-stroke: 1px black;
+  padding-left: 30px;
+  color: #ffd700;
+  font-style: italic;
+}
+
+.header-links {
+  display: flex;
+}
+
+.header-links ul li {
+  list-style-type: none;
+}
+
+.header-links ul li a {
+  padding: 0px 15px;
+}
