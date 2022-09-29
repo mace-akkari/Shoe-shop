@@ -1,7 +1,10 @@
 import React from "react";
 import Header from "./components/Header/Header";
 import Feature from "./components/Feature/Feature";
+import MensProducts from "./components/Products/MensProducts";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import SingleProduct from "./components/Products/Product";
+import Cart from "./components/Cart/Cart";
 
 const App = () => {
   return (
@@ -9,13 +12,17 @@ const App = () => {
       <Router>
         <Header />
         <Routes>
-          <Route path="/" element={<Feature />}></Route>
-          <Route path="/feature" element={<div>feature</div>}></Route>
-          <Route path="/womens" element={<div>womens</div>}></Route>
-          <Route path="/mens" element={<div>mens</div>}></Route>
+          <Route path="" element={<Feature />}></Route>
+          <Route path="feature" element={<div>hello</div>}></Route>
+          <Route path="womens" element={"help"}></Route>
+          <Route path="cart" element={<Cart />}></Route>
+          <Route path="mens">
+            <Route path="" index element={<MensProducts />} />
+            <Route path=":id" element={<SingleProduct />} />
+          </Route>
           <Route path="/unisex" element={<div>unisex</div>}></Route>
         </Routes>
-        {/* <Footer />  build last*/}
+        {/* <Footer /> */}
       </Router>
     </div>
   );
