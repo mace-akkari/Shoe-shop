@@ -1,3 +1,14 @@
-.feature img {
+.all-features img {
   width: 100vw;
+  aspect-ratio: 3 / 1;
+}
+
+.feature-button {
+  display: flex;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+@media (max-width: 480px) {
 }

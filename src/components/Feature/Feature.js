@@ -5,7 +5,7 @@ import HomePageImages from "../../HomePageImages";
 
 const Feature = () => {
   return (
-    <div>
+    <div className="all-features">
       <div className="feature">
         <Link to="/feature">
           <img
