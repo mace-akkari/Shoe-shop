@@ -9,7 +9,7 @@ const Feature = () => {
       <div className="feature">
         <Link to="/feature">
           <img
-            src={HomePageImages.feature}
+            src={HomePageImages.Feature}
             alt="main feature"
             className="feature-logo"
           />
@@ -19,7 +19,7 @@ const Feature = () => {
       <div className="womens-shoes">
         <Link to="/womens">
           <img
-            src={HomePageImages.womensLogo}
+            src={HomePageImages.WomensLogo}
             alt="womens shoes"
             className="womens-shoes-logo"
           />

@@ -6,11 +6,10 @@ const Womens = () => {
     <div className="unisex-shoes">
       <Link to="/unisex">
         <img
-          src={HomePageImages.womensLogo}
+          src={HomePageImages.WomensLogo}
           alt="unisex shoes"
           className="unisex-shoes-logo"
         />
-        <button className="feature-button">SHOP WOMENS</button>
       </Link>
     </div>
   );

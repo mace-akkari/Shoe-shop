@@ -1,0 +1,93 @@
+[     
+  {
+      "id": "1",
+      "name": "Boots",
+      "price": 49.99,
+      "image": "../images/boots-pic.0.png",
+      "ratings": 4,
+      "description": "Get ready for the winter season with these Men's Leather Boots by Ndure. They have been crafted with high quality Genuine Leather material which make them highly resilient and luxurious. A lace style with a smooth finish and padded insoles, these boots are perfect for all day wear. A rubber outsole provides grip, enhances the shoe durability and longevity.",
+      "sizes": [ 
+        {
+          "size" : 6,
+          "available" : true
+        },
+        {
+          "size" : 7,
+          "available" : true
+        },
+        {
+          "size" : 8,
+          "available" : false
+        }
+      ]  ,
+      "colours": [
+        "red", "green", "blue"
+      ] 
+    },
+    {
+      "id": "2",
+      "name": "Hiking Boots",
+      "price": "59.99",
+      "image": "../images/boots-pic.0.png",
+      "ratings": 4,
+      "description": "Get ready for the winter season with these Men's Leather Boots by Ndure. They have been crafted with high quality Genuine Leather material which make them highly resilient and luxurious. A lace style with a smooth finish and padded insoles, these boots are perfect for all day wear. A rubber outsole provides grip, enhances the shoe durability and longevity.",
+      "sizes": [ 
+        {
+          "size" : "6 / 39",
+          "available" : true
+        },
+        {
+          "size" : "7 / 41",
+          "available" : true
+        },
+        {
+          "size" : "8 / 42",
+          "available" : true
+        },
+        {
+          "size" : "9 / 43",
+          "available" : true
+        }
+      ]  ,
+      "colours": [
+        "yellow", "orange", "blue"
+      ] 
+    },
+    {
+      "id": "3",
+      "name": "trainers",
+      "price": 105,
+      "image": "../images/trainers-pic.0.png",
+      "ratings": 4,
+      "description": "Get ready for the winter season with these Men's Leather Boots by Ndure. They have been crafted with high quality Genuine Leather material which make them highly resilient and luxurious. A lace style with a smooth finish and padded insoles, these boots are perfect for all day wear. A rubber outsole provides grip, enhances the shoe durability and longevity.",
+      "sizes": [ 
+        {
+          "size" : 6,
+          "available" : false
+        },
+        {
+          "size" : 7,
+          "available" : true
+        },
+        {
+          "size" : 8,
+          "available" : true
+        }
+      ]  ,
+      "colours": [
+        "red", "green", "blue"
+      ] 
+    },
+    {
+      "id": "4",
+      "name": "Vans",
+      "price": "70",
+      "image": "../images/boots-pic.1.png"
+    },
+    {
+      "id": "5",
+      "name": "Plimsoles",
+      "price": 65,
+      "image": "../images/trainers-pic.1.png"
+    }
+  ]
