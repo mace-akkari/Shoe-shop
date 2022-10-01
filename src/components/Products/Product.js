@@ -9,7 +9,7 @@ const Product = () => {
 
   const [SelectedBoot, SetSelectedBoot] = useState(state);
   const [quantity, setQuantity] = useState(1);
-  const [selectedColor, SetSelectedColor] = useState("");
+  const [selectedColour, SetselectedColour] = useState("");
   const [selectedSize, SetSelectedSize] = useState("");
 
   console.log("slelcet ", SelectedBoot);
@@ -17,8 +17,18 @@ const Product = () => {
   const handleCartAddFuc = () => {
     let cart = localStorage.getItem("cart");
 
-    if (!selectedSize || !selectedColor) {
-      toast.error("You need to select the color and size.", {
+    if (!selectedSize || !selectedColour) {
+      toast.error("Please select a colour and size.", {
+        position: "top-right",
+        autoClose: 1500,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+      });
+    } else if (quantity === 0) {
+      toast.error("Please enter a quantity.", {
         position: "top-right",
         autoClose: 1500,
         hideProgressBar: false,
@@ -39,7 +49,7 @@ const Product = () => {
         size: selectedSize,
         description: SelectedBoot.description,
         image: SelectedBoot.image,
-        color: selectedColor,
+        color: selectedColour,
       };
 
       console.log("cartItem ", cartItem);
@@ -96,10 +106,11 @@ const Product = () => {
               </div>
               <p class="product-description">{SelectedBoot.description}</p>
               <h4 class="price">
-                current price: <span>£{SelectedBoot.price}</span>
+                Price: <span>£{SelectedBoot.price}</span>
               </h4>
               <h5 class="sizes">
-                sizes:
+                sizes
+                <br /> UK/EU:
                 {SelectedBoot.sizes.map(
                   (size, idx) =>
                     size.available && (
@@ -121,9 +132,9 @@ const Product = () => {
                   <div
                     class="color"
                     style={{ backgroundColor: colour }}
-                    onClick={() => SetSelectedColor(colour)}
+                    onClick={() => SetselectedColour(colour)}
                   >
-                    {selectedColor === colour && (
+                    {selectedColour === colour && (
                       <i class="fa color-white fa-check" aria-hidden="true"></i>
                     )}
                   </div>
