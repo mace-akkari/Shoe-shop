@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { useLocation } from "react-router-dom";
+import "./Products.css";
 
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
@@ -127,7 +128,7 @@ const Product = () => {
                 )}
               </h5>
               <h5 class="colors">
-                colors:
+                colour(s):
                 {SelectedBoot.colours.map((colour) => (
                   <div
                     class="color"
