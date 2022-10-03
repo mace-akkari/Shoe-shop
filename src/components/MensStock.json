@@ -2,7 +2,7 @@
   {
       "id": "1",
       "name": "Boots",
-      "price": 49.99,
+      "price": 79.99,
       "image": "../images/boots-pic.0.png",
       "ratings": 5,
       "description": "Get ready for the winter season with these Men's Leather Boots by Ndure. They have been crafted with high quality Genuine Leather material which make them highly resilient and luxurious. A lace style with a smooth finish and padded insoles, these boots are perfect for all day wear. A rubber outsole provides grip, enhances the shoe durability and longevity.",
@@ -22,17 +22,103 @@
         }
       ]  ,
       "colours": [
-        "grey", "green", "blue"
+        "brown", "green", "blue"
       ] 
     },
     {
       "id": "2",
-      "name": "Hiking Boots",
-      "price": "59.99",
-      "image": "../images/boots-pic.0.png",
+      "name": "Goldne Shoe Boots",
+      "price": "84.99",
+      "image": "../images/mens-pic3.png",
+      "ratings": 4,
+      "description": "By Silver Street, these men's Heston desert boots feature a tan suede upper with stitch detailing. Their lace-up fastening provides a secure fit; their insole offers comfort and their cleated outsole provides a stable grip. These desert boots are great for a smart-casual look.",
+      "miniDescription": "Beige blaster",
+      "sizes": [ 
+        {
+          "size" : "6 / 39",
+          "available" : true
+        },
+        {
+          "size" : "7 / 41",
+          "available" : true
+        },
+        {
+          "size" : "8 / 42",
+          "available" : true
+        },
+        {
+          "size" : "9 / 43",
+          "available" : true
+        }
+      ]  ,
+      "colours": [
+        "brown", "orange", "blue"
+      ] 
+    },
+    {
+      "id": "3",
+      "name": "Drak Night Trainers",
+      "price": 105,
+      "image": "../images/trainers-pic.0.png",
       "ratings": 4,
       "description": "Get ready for the winter season with these Men's Leather Boots by Ndure. They have been crafted with high quality Genuine Leather material which make them highly resilient and luxurious. A lace style with a smooth finish and padded insoles, these boots are perfect for all day wear. A rubber outsole provides grip, enhances the shoe durability and longevity.",
       "miniDescription": "grey desert storm ",
+      "sizes": [ 
+        {
+          "size" : "6 / 39",
+          "available" : false
+        },
+        {
+        "size" : "7 / 41",
+        "available" : true
+      },
+      {
+        "size" : "8 / 42",
+        "available" : true
+      },
+      {
+        "size" : "9 / 43",
+        "available" : true
+      }
+      ]  ,
+      "colours": [
+        "tan", "black", "blue"
+      ] 
+    },
+    {
+      "id": "4",
+      "name": "Running Trainers",
+      "price": 79.99,
+      "image": "../images/mens-black.png",
+      "ratings": 5,
+      "description": "Get ready for the winter season with these Men's Leather Boots by Ndure. They have been crafted with high quality Genuine Leather material which make them highly resilient and luxurious. A lace style with a smooth finish and padded insoles, these boots are perfect for all day wear. A rubber outsole provides grip, enhances the shoe durability and longevity.",
+      "miniDescription": "grey desert storm ",
+      "sizes": [ 
+        {
+          "size" : "6 / 39",
+          "available" : true
+        },
+        {
+          "size" : "7 / 41",
+          "available" : true
+        },
+        {
+          "size" : "8 / 42",
+          "available" : false
+        }
+      ]  ,
+      "colours": [
+        "brown", "green", "blue"
+      ] 
+    },
+    {
+      "id": "5",
+      "name": "Goldne Shoe Boots",
+      "price": "84.99",
+      "image": "../images/mens-pic3.png",
+      "ratings": 4,
+      "description": "Get ready for the winter season with these Men's Leather Boots by Ndure. They have been crafted with high quality Genuine Leather material which make them highly resilient and luxurious. A lace style with a smooth finish and padded insoles, these boots are perfect for all day wear. A rubber outsole provides grip, enhances the shoe durability and longevity.",
+      "miniDescription": "Beige blaster",
       "sizes": [ 
         {
           "size" : "6 / 39",
@@ -56,7 +142,7 @@
       ] 
     },
     {
-      "id": "3",
+      "id": "34",
       "name": "trainers",
       "price": 105,
       "image": "../images/trainers-pic.0.png",
@@ -69,28 +155,194 @@
           "available" : false
         },
         {
-          "size" : 7,
+        "size" : "7 / 41",
+        "available" : true
+      },
+      {
+        "size" : "8 / 42",
+        "available" : true
+      },
+      {
+        "size" : "9 / 43",
+        "available" : true
+      }
+      ]  ,
+      "colours": [
+        "tan", "black", "blue"
+      ] 
+    },
+    {
+      "id": "43561",
+      "name": "Boots",
+      "price": 79.99,
+      "image": "../images/boots-pic.0.png",
+      "ratings": 5,
+      "description": "Get ready for the winter season with these Men's Leather Boots by Ndure. They have been crafted with high quality Genuine Leather material which make them highly resilient and luxurious. A lace style with a smooth finish and padded insoles, these boots are perfect for all day wear. A rubber outsole provides grip, enhances the shoe durability and longevity.",
+      "miniDescription": "grey desert storm ",
+      "sizes": [ 
+        {
+          "size" : "6 / 39",
           "available" : true
         },
         {
-          "size" : 8,
+          "size" : "7 / 41",
+          "available" : true
+        },
+        {
+          "size" : "8 / 42",
+          "available" : false
+        }
+      ]  ,
+      "colours": [
+        "brown", "green", "blue"
+      ] 
+    },
+    {
+      "id": "2ertdgd",
+      "name": "Goldne Shoe Boots",
+      "price": "84.99",
+      "image": "../images/mens-pic3.png",
+      "ratings": 4,
+      "description": "Get ready for the winter season with these Men's Leather Boots by Ndure. They have been crafted with high quality Genuine Leather material which make them highly resilient and luxurious. A lace style with a smooth finish and padded insoles, these boots are perfect for all day wear. A rubber outsole provides grip, enhances the shoe durability and longevity.",
+      "miniDescription": "Beige blaster",
+      "sizes": [ 
+        {
+          "size" : "6 / 39",
+          "available" : true
+        },
+        {
+          "size" : "7 / 41",
+          "available" : true
+        },
+        {
+          "size" : "8 / 42",
+          "available" : true
+        },
+        {
+          "size" : "9 / 43",
           "available" : true
         }
       ]  ,
       "colours": [
-        "red", "green", "blue"
+        "yellow", "orange", "blue"
       ] 
     },
     {
-      "id": "4",
-      "name": "Vans",
-      "price": "70",
-      "image": "../images/boots-pic.1.png"
+      "id": "34dfdf343",
+      "name": "trainers",
+      "price": 105,
+      "image": "../images/trainers-pic.0.png",
+      "ratings": 4,
+      "description": "Get ready for the winter season with these Men's Leather Boots by Ndure. They have been crafted with high quality Genuine Leather material which make them highly resilient and luxurious. A lace style with a smooth finish and padded insoles, these boots are perfect for all day wear. A rubber outsole provides grip, enhances the shoe durability and longevity.",
+      "miniDescription": "grey desert storm ",
+      "sizes": [ 
+        {
+          "size" : "6 / 39",
+          "available" : false
+        },
+        {
+        "size" : "7 / 41",
+        "available" : true
+      },
+      {
+        "size" : "8 / 42",
+        "available" : true
+      },
+      {
+        "size" : "9 / 43",
+        "available" : true
+      }
+      ]  ,
+      "colours": [
+        "tan", "black", "blue"
+      ] 
     },
     {
-      "id": "5",
-      "name": "Plimsoles",
-      "price": 65,
-      "image": "../images/trainers-pic.1.png"
+      "id": "1fdfdfdfd",
+      "name": "Boots",
+      "price": 79.99,
+      "image": "../images/boots-pic.0.png",
+      "ratings": 5,
+      "description": "Get ready for the winter season with these Men's Leather Boots by Ndure. They have been crafted with high quality Genuine Leather material which make them highly resilient and luxurious. A lace style with a smooth finish and padded insoles, these boots are perfect for all day wear. A rubber outsole provides grip, enhances the shoe durability and longevity.",
+      "miniDescription": "grey desert storm ",
+      "sizes": [ 
+        {
+          "size" : "6 / 39",
+          "available" : true
+        },
+        {
+          "size" : "7 / 41",
+          "available" : true
+        },
+        {
+          "size" : "8 / 42",
+          "available" : false
+        }
+      ]  ,
+      "colours": [
+        "brown", "green", "blue"
+      ] 
+    },
+    {
+      "id": "fdfdfb42",
+      "name": "Goldne Shoe Boots",
+      "price": "84.99",
+      "image": "../images/mens-pic3.png",
+      "ratings": 4,
+      "description": "Get ready for the winter season with these Men's Leather Boots by Ndure. They have been crafted with high quality Genuine Leather material which make them highly resilient and luxurious. A lace style with a smooth finish and padded insoles, these boots are perfect for all day wear. A rubber outsole provides grip, enhances the shoe durability and longevity.",
+      "miniDescription": "Beige blaster",
+      "sizes": [ 
+        {
+          "size" : "6 / 39",
+          "available" : true
+        },
+        {
+          "size" : "7 / 41",
+          "available" : true
+        },
+        {
+          "size" : "8 / 42",
+          "available" : true
+        },
+        {
+          "size" : "9 / 43",
+          "available" : true
+        }
+      ]  ,
+      "colours": [
+        "yellow", "orange", "blue"
+      ] 
+    },
+    {
+      "id": "343vv43",
+      "name": "trainers",
+      "price": 105,
+      "image": "../images/trainers-pic.0.png",
+      "ratings": 3,
+      "description": "Get ready for the winter season with these Men's Leather Boots by Ndure. They have been crafted with high quality Genuine Leather material which make them highly resilient and luxurious. A lace style with a smooth finish and padded insoles, these boots are perfect for all day wear. A rubber outsole provides grip, enhances the shoe durability and longevity.",
+      "miniDescription": "grey desert storm ",
+      "sizes": [ 
+        {
+          "size" : "6 / 39",
+          "available" : false
+        },
+        {
+        "size" : "7 / 41",
+        "available" : true
+      },
+      {
+        "size" : "8 / 42",
+        "available" : true
+      },
+      {
+        "size" : "9 / 43",
+        "available" : true
+      }
+      ]  ,
+      "colours": [
+        "tan", "black", "blue"
+      ] 
     }
+
+
   ]

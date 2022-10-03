@@ -10,5 +10,15 @@
   margin-bottom: 30px;
 }
 
+.feature-registration {
+  width: 100vw;
+  aspect-ratio: 3/ 1;
+  font-size: 30px;
+}
+
+.feature-registration img {
+  background-repeat: no-repeat;
+}
+
 @media (max-width: 480px) {
 }
