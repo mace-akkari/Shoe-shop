@@ -22,7 +22,6 @@ const App = () => {
           </Route>
           <Route path="/unisex" element={<div>unisex</div>}></Route>
         </Routes>
-        {/* <Footer /> */}
       </Router>
     </div>
   );

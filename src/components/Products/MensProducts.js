@@ -10,13 +10,15 @@ const MensProducts = () => {
   return (
     <div>
       <div className="section-description">
-        Footware plays an essential role in every outfit. After all, the right
-        footwear can quickly make or break your look. So, if you want to appear
-        stylish, it’s important to have the right shoes on hand to complete and
-        complement your every ensemble. Luckily, we have you and your feet
-        covered. From running errands to attending a formal gala, we’ve narrowed
-        down a selection of stylish men’s footware at every man should have in
-        his wardrobe.
+        <p>
+          Footware plays an essential role in every outfit. After all, the right
+          footwear can quickly make or break your look. So, if you want to
+          appear stylish, it’s important to have the right shoes on hand to
+          complete and complement your every ensemble. Luckily, we have you and
+          your feet covered. From running errands to attending a formal gala,
+          we’ve narrowed down a selection of stylish men’s footware at every man
+          should have in his wardrobe.
+        </p>
       </div>
 
       <div className="single-product-container">

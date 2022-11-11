@@ -27,14 +27,14 @@ const Cart = () => {
     e.preventDefault();
     e.stopPropagation();
 
-    console.log('id ', id)
+    console.log("id ", id);
     let allItems = items;
-    console.log('allItems before', items)
-    var filtered = allItems.filter((item,idx)=>{ 
+    console.log("allItems before", items);
+    var filtered = allItems.filter((item, idx) => {
       return idx != id;
-  });
+    });
 
-    console.log('filtered after', filtered)
+    console.log("filtered after", filtered);
 
     localStorage.setItem("cart", JSON.stringify(filtered));
     handleLoad();
